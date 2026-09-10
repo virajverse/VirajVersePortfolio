@@ -1,70 +1,146 @@
 [
   {
-    "id": "ai-systems-platform",
-    "category": "AI Engineering",
-    "title": "AI Systems Platform",
-    "imageSrc": "/assets/projects-screenshots/ai-systems-platform/1.png",
-    "live": "https://www.taliyotechnologies.com",
-    "github": "https://github.com/virajverse",
-    "description": "A multi-layered AI system platform integrating three major AI-driven subsystems into a single architecture: a public-facing RAG chatbot, an admin-level business intelligence copilot, and an AI-powered blog generation system.",
+    "id": "viha-worlds-1-autonomous-ai-desktop-agent",
+    "title": "VIHA — World's #1 Autonomous AI Desktop Agent",
+    "category": "Autonomous AI",
+    "description": "Privacy-first autonomous AI desktop agent running local Qwen LLM, translucent holographic React HUD, voice interaction, and multi-modal Windows OS automation.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20VIHA%20Autonomous%20AI%20Desktop%20Agent",
+    "github": "https://github.com/virajverse/VIHA_-World-s-1-Autonomous-AI-Desktop-Agent_",
+    "imageSrc": "/media/viha-worlds-1-autonomous-ai-de-1789041178.jpg",
+    "screenshots": [],
+    "skills": [
+      "python",
+      "react",
+      "fastapi",
+      "qwen",
+      "voice",
+      "windows",
+      "tailwind"
+    ],
     "highlights": [
       {
-        "heading": "RAG Chatbot System",
         "points": [
-          "Full RAG-based system — not a simple LLM wrapper",
-          "Flow: User Query → Embedding Generation → Vector Search (pgvector) → Context Injection → LLM Response",
-          "Multi-turn conversation memory + lead capture system integrated"
-        ]
+          "Runs local quantized Qwen model with zero cloud data exposure",
+          "Sub-150ms inference latency on consumer hardware",
+          "Full offline operational capability"
+        ],
+        "heading": "Local LLM & 100% Privacy Architecture"
       },
       {
-        "heading": "Multi-Provider LLM Architecture",
         "points": [
-          "Primary → OpenAI, Secondary fallback → Gemini, Final fallback → Groq",
-          "Ensures high availability even if one provider fails"
-        ]
+          "Translucent always-on-top telemetry interface",
+          "Real-time audio visualizer with multi-modal voice feedback",
+          "Interactive system diagnostics and quick-action palette"
+        ],
+        "heading": "Holographic React Desktop HUD"
       },
       {
-        "heading": "Admin AI Copilot",
         "points": [
-          "Injects live business data into AI context from contacts, invoices, blogs",
-          "Revenue analysis, lead prioritization, blog performance insights"
-        ]
+          "Dispatches safe keyboard, mouse, and terminal actions",
+          "Active window detection and cognitive workflow orchestration",
+          "Heuristic permission boundaries and safety guards"
+        ],
+        "heading": "Autonomous OS Automation Engine"
       }
     ],
+    "order": 1,
+    "createdAt": "2026-09-10T11:53:00.00078+00:00"
+  },
+  {
+    "id": "spectrabrowser-mcp-autonomous-browser-devtools-qa-suite",
+    "title": "SpectraBrowser MCP - Autonomous Browser & DevTools QA Suite",
+    "category": "AI Engineering",
+    "description": "Production Model Context Protocol (MCP) server providing 100% Extension-Native live Chrome control, DevTools telemetry, and human-like interaction physics.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20SpectraBrowser%20MCP",
+    "github": "https://github.com/virajverse/spectra-browser-mcp",
+    "imageSrc": "/media/spectrabrowser-mcp-autonomous--1789039812.webp",
+    "screenshots": [],
     "skills": [
       "ts",
+      "python",
       "next",
+      "react",
       "tailwind",
-      "supabase",
-      "postgres",
-      "openai",
-      "node"
-    ]
+      "docker",
+      "framermotion"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Dispatches 15-45ms human cadence typing rhythm",
+          "Sinusoidal multi-step smooth scrolling animation",
+          "Subtle micro-jitter coordinates (+-1-3px) on pointer clicks"
+        ],
+        "heading": "Human-Like Interaction Physics"
+      },
+      {
+        "points": [
+          "Accessibility tree observation consumes 0 disk bytes",
+          "Sub-100ms RapidOCR ONNX text and bounding box detection"
+        ],
+        "heading": "Zero-Disk Ephemeral Vision & RapidOCR"
+      }
+    ],
+    "order": 2,
+    "createdAt": "2026-09-10T11:30:13.255971+00:00"
+  },
+  {
+    "id": "taliyo-creative-intelligence-graphic-designer-ai-agent",
+    "title": "Taliyo Creative Intelligence — Graphic Designer AI Agent",
+    "category": "Creative AI",
+    "description": "Autonomous graphic design agent running a 27-model NVIDIA NIM cluster, Ahead-of-Time cultural trend forecaster, Turso cloud DB, and automated Telegram bot.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Taliyo%20Graphic%20Designer%20AI",
+    "github": "https://github.com/virajverse/GraphicDeisgnerHolidayAGent",
+    "imageSrc": "/media/taliyo-creative-intelligence-g-1789041179.jpg",
+    "screenshots": [],
+    "skills": [
+      "ts",
+      "nvidia",
+      "next",
+      "turso",
+      "telegram",
+      "ai",
+      "tailwind"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Multi-agent LLM consensus for visual design briefs",
+          "Zero-prompt brand voice and aesthetic calibration",
+          "Sub-2s multi-resolution creative rendering pipeline"
+        ],
+        "heading": "27-Model NVIDIA NIM Swarm"
+      },
+      {
+        "points": [
+          "Scans global festivals, holidays, and social trends 14 days in advance",
+          "Automated marketing calendar synchronization",
+          "Generates contextual social media banners and stories"
+        ],
+        "heading": "Ahead-of-Time Cultural Radar"
+      },
+      {
+        "points": [
+          "Two-way interactive revisions via Telegram bot",
+          "One-click export to PNG, SVG, and high-res print formats",
+          "Turso edge SQLite storage with sub-10ms query times"
+        ],
+        "heading": "Direct Telegram Studio Bot"
+      }
+    ],
+    "order": 3,
+    "createdAt": "2026-09-10T11:53:00.858993+00:00"
   },
   {
     "id": "enterprise-saas-platform",
-    "category": "SaaS",
     "title": "Enterprise Website + Admin SaaS Platform",
-    "imageSrc": "/assets/projects-screenshots/enterprise-saas/1.png",
-    "live": "https://www.taliyotechnologies.com",
-    "github": "https://github.com/virajverse",
-    "description": "A complete enterprise-grade SaaS platform consisting of a public website (15+ pages) and an admin dashboard (24+ pages), designed to handle real business operations — not just presentation.",
-    "highlights": [
-      {
-        "heading": "Frontend System",
-        "points": [
-          "Built with React + Vite with advanced animations",
-          "Reusable UI component system",
-          "Performance optimization: lazy loading, code splitting, asset optimization"
-        ]
-      },
-      {
-        "heading": "Backend & Database",
-        "points": [
-          "Designed 18+ database tables with Row-Level Security (RLS)",
-          "Stored procedures for rate limiting, analytics, and data aggregation"
-        ]
-      }
+    "category": "SaaS",
+    "description": "Comprehensive multi-tenant AI SaaS Admin Platform with Next.js, Node.js, PostgreSQL, pgvector RAG, Stripe billing, and multi-provider LLM orchestration.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Enterprise%20SaaS%20Platform",
+    "github": "https://github.com/virajverse/Taliyo-Technologies-Admin-panel",
+    "imageSrc": "/media/enterprise-saas-platform-1789040367.png",
+    "screenshots": [
+      "/assets/projects-screenshots/enterprise-saas/1.png"
     ],
     "skills": [
       "ts",
@@ -75,57 +151,82 @@
       "supabase",
       "postgres",
       "node"
-    ]
-  },
-  {
-    "id": "ai-code-editor",
-    "category": "Developer Tools",
-    "title": "AI Code Editor — VS Code Extension",
-    "imageSrc": "/assets/projects-screenshots/ai-code-editor/1.png",
-    "live": "https://github.com/virajverse",
-    "github": "https://github.com/virajverse",
-    "description": "An AI-powered VS Code extension that automates development workflows using intelligent agents with a multi-agent architecture.",
+    ],
     "highlights": [
       {
-        "heading": "Multi-Agent Architecture",
         "points": [
-          "Planner → breaks problem into steps",
-          "Coder → writes context-aware code",
-          "Debugger → detects and fixes issues automatically"
-        ]
+          "Built with React + Vite with advanced animations",
+          "Reusable UI component system",
+          "Performance optimization: lazy loading, code splitting, asset optimization"
+        ],
+        "heading": "Frontend System"
+      },
+      {
+        "points": [
+          "Designed 18+ database tables with Row-Level Security (RLS)",
+          "Stored procedures for rate limiting, analytics, and data aggregation"
+        ],
+        "heading": "Backend & Database"
       }
     ],
+    "order": 4,
+    "createdAt": "2026-07-06T10:21:50.341648+00:00"
+  },
+  {
+    "id": "verse-steering-wheel-computer-vision-hand-tracking",
+    "title": "Verse Steering Wheel — Computer Vision Hand Tracking",
+    "category": "Computer Vision",
+    "description": "Zero-hardware virtual steering wheel controlling PC racing games via real-time webcam hand tracking, MediaPipe gestures, and low-latency virtual input emulation.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Verse%20Virtual%20Steering%20Wheel",
+    "github": "https://github.com/virajverse/Ashphalt-legends-steering-wheel",
+    "imageSrc": "/media/verse-steering-wheel-computer--1789041180.jpg",
+    "screenshots": [],
     "skills": [
-      "ts",
-      "openai",
-      "node"
-    ]
+      "python",
+      "opencv",
+      "mediapipe",
+      "computervision",
+      "gaming"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Real-time 21-landmark hand tracking via Google MediaPipe",
+          "Calculates hand-angle inclination and translates yaw into analog steering",
+          "Sub-15ms motion pipeline ensuring zero racing input lag"
+        ],
+        "heading": "Zero-Hardware Virtual Control"
+      },
+      {
+        "points": [
+          "Compact 320x240 heads-up display overlaying PC games",
+          "Real-time telemetry showing RPM, steering angle, and pedal status",
+          "Visual feedback indicator for gesture engagement"
+        ],
+        "heading": "Intelligent Auto-Scaling HUD"
+      },
+      {
+        "points": [
+          "Fist clench detection for nitrous boost and handbrake",
+          "Adaptive neutral zone filtering to eliminate hand jitter",
+          "Direct virtual gamepad driver emulation for Asphalt and NFS"
+        ],
+        "heading": "Dynamic Gesture Triggers"
+      }
+    ],
+    "order": 5,
+    "createdAt": "2026-09-10T11:53:01.325372+00:00"
   },
   {
     "id": "taliyo-marketplace",
-    "category": "Full-Stack Marketplace",
     "title": "Taliyo Marketplace",
-    "imageSrc": "/assets/projects-screenshots/taliyo-marketplace/1.png",
-    "live": "https://www.taliyotechnologies.com",
-    "github": "https://github.com/virajverse",
-    "description": "A full-stack marketplace platform with separate systems for consumers and admins. Dual-app architecture with consumer app and admin dashboard.",
-    "highlights": [
-      {
-        "heading": "Customer Features",
-        "points": [
-          "Browse services, cart & wishlist",
-          "WhatsApp-based checkout",
-          "Order tracking"
-        ]
-      },
-      {
-        "heading": "Admin Features",
-        "points": [
-          "Full analytics dashboard",
-          "Service management + campaign system",
-          "Bulk CSV import"
-        ]
-      }
+    "category": "Full-Stack Marketplace",
+    "description": "High-conversion curated digital service marketplace with vendor onboarding, booking workflows, and escrow payment integration.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Taliyo%20Marketplace",
+    "github": "https://github.com/virajverse/Final-Taliyo-Marketplace",
+    "imageSrc": "/media/taliyo-marketplace-1789040387.png",
+    "screenshots": [
+      "/assets/projects-screenshots/taliyo-marketplace/1.png"
     ],
     "skills": [
       "ts",
@@ -135,229 +236,373 @@
       "supabase",
       "postgres",
       "node"
-    ]
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Browse services, cart & wishlist",
+          "WhatsApp-based checkout",
+          "Order tracking"
+        ],
+        "heading": "Customer Features"
+      },
+      {
+        "points": [
+          "Full analytics dashboard",
+          "Service management + campaign system",
+          "Bulk CSV import"
+        ],
+        "heading": "Admin Features"
+      }
+    ],
+    "order": 6,
+    "createdAt": "2026-07-06T10:21:50.754679+00:00"
+  },
+  {
+    "id": "ai-systems-platform",
+    "title": "AI Systems Platform",
+    "category": "AI Engineering",
+    "description": "Enterprise AI agent infrastructure, RAG telemetry pipelines, real-time SOC monitoring, and multi-provider LLM orchestration.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20AI%20Systems%20Platform",
+    "github": "https://github.com/virajverse/Taliyo-Technologies-Admin-panel",
+    "imageSrc": "/media/ai-systems-platform-1789040389.png",
+    "screenshots": [
+      "/assets/projects-screenshots/ai-systems-platform/1.png"
+    ],
+    "skills": [
+      "ts",
+      "next",
+      "tailwind",
+      "supabase",
+      "postgres",
+      "openai",
+      "node"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Full RAG-based system — not a simple LLM wrapper",
+          "Flow: User Query → Embedding Generation → Vector Search (pgvector) → Context Injection → LLM Response",
+          "Multi-turn conversation memory + lead capture system integrated"
+        ],
+        "heading": "RAG Chatbot System"
+      },
+      {
+        "points": [
+          "Primary → OpenAI, Secondary fallback → Gemini, Final fallback → Groq",
+          "Ensures high availability even if one provider fails"
+        ],
+        "heading": "Multi-Provider LLM Architecture"
+      },
+      {
+        "points": [
+          "Injects live business data into AI context from contacts, invoices, blogs",
+          "Revenue analysis, lead prioritization, blog performance insights"
+        ],
+        "heading": "Admin AI Copilot"
+      }
+    ],
+    "order": 7,
+    "createdAt": "2026-07-06T10:21:49.918512+00:00"
+  },
+  {
+    "id": "universe-no-1-brain-ui",
+    "title": "Universe No 1 Brain Ui",
+    "category": "Web Development",
+    "description": "A project built around JavaScript. Explore the repository for more details.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Universe%20No%201%20Brain%20UI",
+    "github": "https://github.com/virajverse/Universe-No-1-Brain-Ui",
+    "imageSrc": "/media/universe-1783342502360.png",
+    "screenshots": [],
+    "skills": [
+      "js"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Developed using JavaScript.",
+          "Open-source repository hosted on GitHub.",
+          "Checkout the repository to see implementation details."
+        ],
+        "heading": "Key Highlights"
+      }
+    ],
+    "order": 8,
+    "createdAt": "2026-07-06T10:21:51.18392+00:00"
   },
   {
     "id": "routiq",
+    "title": "RoutiQ — Life Management System",
     "category": "Productivity App",
-    "title": "Routiq — Life Management System",
-    "imageSrc": "/assets/projects-screenshots/routiq/1.png",
-    "live": "https://github.com/virajverse",
-    "github": "https://github.com/virajverse",
-    "description": "A personal productivity platform integrating Health, Fitness, Work, and Analytics into one cohesive system. React SPA with Zustand state management.",
-    "highlights": [
-      {
-        "heading": "Modules",
-        "points": [
-          "Nutrition: calorie tracking, meal planning",
-          "Fitness: workout tracking, exercise history",
-          "Productivity: focus sessions, scheduling",
-          "Gamification: streaks, achievements, levels"
-        ]
-      }
+    "description": "Circadian rhythm optimizer and daily routine intelligence platform with real-time habit tracking and cognitive scheduling.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20RoutiQ%20Life%20Management",
+    "github": "https://github.com/virajverse/ROutiQ",
+    "imageSrc": "/media/routiq-1789040391.png",
+    "screenshots": [
+      "/assets/projects-screenshots/routiq/1.png"
     ],
     "skills": [
       "ts",
       "react",
       "tailwind"
-    ]
-  },
-  {
-    "id": "universe-no-1-brain-ui",
-    "category": "Web Development",
-    "title": "Universe No 1 Brain Ui",
-    "imageSrc": "/assets/projects-screenshots/universe-no-1-brain-ui/1.png",
-    "live": "https://versebrain.vercel.app",
-    "github": "https://github.com/virajverse/Universe-No-1-Brain-Ui",
-    "description": "A project built around JavaScript. Explore the repository for more details.",
+    ],
     "highlights": [
       {
-        "heading": "Key Highlights",
         "points": [
-          "Developed using JavaScript.",
-          "Open-source repository hosted on GitHub.",
-          "Checkout the repository to see implementation details."
-        ]
+          "Nutrition: calorie tracking, meal planning",
+          "Fitness: workout tracking, exercise history",
+          "Productivity: focus sessions, scheduling",
+          "Gamification: streaks, achievements, levels"
+        ],
+        "heading": "Modules"
       }
     ],
-    "skills": [
-      "js"
-    ]
-  },
-  {
-    "id": "watch-together-movies-series",
-    "category": "Web Development",
-    "title": "Watch Together Movies Series",
-    "imageSrc": "/assets/projects-screenshots/watch-together-movies-series/1.png",
-    "live": "https://client-delta-lime-44.vercel.app",
-    "github": "https://github.com/virajverse/Watch-Together-Movies-Series",
-    "description": "A project built around TypeScript. Explore the repository for more details.",
-    "highlights": [
-      {
-        "heading": "Key Highlights",
-        "points": [
-          "Developed using TypeScript.",
-          "Open-source repository hosted on GitHub.",
-          "Checkout the repository to see implementation details."
-        ]
-      }
-    ],
-    "skills": [
-      "ts"
-    ]
-  },
-  {
-    "id": "dailytoutineapp",
-    "category": "Web Development",
-    "title": "Dailytoutineapp",
-    "imageSrc": "/assets/projects-screenshots/dailytoutineapp/1.png",
-    "live": "https://dailytoutineapp.vercel.app",
-    "github": "https://github.com/virajverse/dailytoutineapp",
-    "description": "A project built around TypeScript. Explore the repository for more details.",
-    "highlights": [
-      {
-        "heading": "Key Highlights",
-        "points": [
-          "Developed using TypeScript.",
-          "Open-source repository hosted on GitHub.",
-          "Checkout the repository to see implementation details."
-        ]
-      }
-    ],
-    "skills": [
-      "ts"
-    ]
+    "order": 9,
+    "createdAt": "2026-07-06T10:21:50.966614+00:00"
   },
   {
     "id": "quotex-ai-pro",
-    "category": "AI Engineering",
     "title": "Quotex AI Pro",
-    "imageSrc": "/assets/projects-screenshots/quotex-ai-pro/1.png",
-    "live": "https://quotex-ai-pro.vercel.app",
+    "category": "AI Engineering",
+    "description": "Automated Telegram AI signals bot and neon-themed admin dashboard for algorithmic market telemetry and volatility analysis.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Quotex%20AI%20Pro",
     "github": "https://github.com/virajverse/Quotex-AI-Pro",
-    "description": "A project built around Python. Explore the repository for more details.",
+    "imageSrc": "/media/quotex-ai-pro-1789040392.png",
+    "screenshots": [
+      "/assets/projects-screenshots/quotex-ai-pro/1.png"
+    ],
+    "skills": [
+      "python"
+    ],
     "highlights": [
       {
-        "heading": "Key Highlights",
         "points": [
           "Developed using Python.",
           "Open-source repository hosted on GitHub.",
           "Checkout the repository to see implementation details."
-        ]
+        ],
+        "heading": "Key Highlights"
       }
     ],
-    "skills": [
-      "python"
-    ]
-  },
-  {
-    "id": "daily-work-dashboard",
-    "category": "Web Development",
-    "title": "Daily Work DashBoard",
-    "imageSrc": "/assets/projects-screenshots/daily-work-dashboard/1.png",
-    "live": "https://daily-work-dash-board.vercel.app",
-    "github": "https://github.com/virajverse/Daily-Work-DashBoard",
-    "description": "A project built around TypeScript. Explore the repository for more details.",
-    "highlights": [
-      {
-        "heading": "Key Highlights",
-        "points": [
-          "Developed using TypeScript.",
-          "Open-source repository hosted on GitHub.",
-          "Checkout the repository to see implementation details."
-        ]
-      }
-    ],
-    "skills": [
-      "ts"
-    ]
-  },
-  {
-    "id": "goal-tracker-ai",
-    "category": "Web Development",
-    "title": "Goal Tracker AI",
-    "imageSrc": "/assets/projects-screenshots/goal-tracker-ai/1.png",
-    "live": "https://github.com/virajverse/Goal-Tracker-AI",
-    "github": "https://github.com/virajverse/Goal-Tracker-AI",
-    "description": "A project built around TypeScript. Explore the repository for more details.",
-    "highlights": [
-      {
-        "heading": "Key Highlights",
-        "points": [
-          "Developed using TypeScript.",
-          "Open-source repository hosted on GitHub.",
-          "Checkout the repository to see implementation details."
-        ]
-      }
-    ],
-    "skills": [
-      "ts"
-    ]
+    "order": 10,
+    "createdAt": "2026-07-06T10:21:51.786349+00:00"
   },
   {
     "id": "taliyo-ai",
-    "category": "Web Development",
     "title": "Taliyo AI",
-    "imageSrc": "/assets/projects-screenshots/taliyo-ai/1.png",
-    "live": "https://taliyo-ai.vercel.app",
+    "category": "AI Engineering",
+    "description": "Conversational multi-agent AI assistant orchestrating NLP task management, automated lead qualification, and enterprise workflows.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Taliyo%20AI",
     "github": "https://github.com/virajverse/Taliyo-AI",
-    "description": "A project built around JavaScript. Explore the repository for more details.",
+    "imageSrc": "/media/taliyo-ai-1789040394.png",
+    "screenshots": [
+      "/assets/projects-screenshots/taliyo-ai/1.png"
+    ],
+    "skills": [
+      "js"
+    ],
     "highlights": [
       {
-        "heading": "Key Highlights",
         "points": [
           "Developed using JavaScript.",
           "Open-source repository hosted on GitHub.",
           "Checkout the repository to see implementation details."
-        ]
+        ],
+        "heading": "Key Highlights"
       }
     ],
-    "skills": [
-      "js"
-    ]
+    "order": 11,
+    "createdAt": "2026-07-06T10:21:52.493929+00:00"
   },
   {
     "id": "cybernexus-gaming",
-    "category": "Web Development",
     "title": "CyberNexus Gaming",
-    "imageSrc": "/assets/projects-screenshots/cybernexus-gaming/1.png",
-    "live": "https://github.com/virajverse/CyberNexus-Gaming",
+    "category": "Web Development",
+    "description": "Cyberpunk-themed responsive digital gaming hub with immersive interactive animations, game showcase catalog, and player telemetry.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20CyberNexus%20Gaming",
     "github": "https://github.com/virajverse/CyberNexus-Gaming",
-    "description": "A project built around HTML. Explore the repository for more details.",
+    "imageSrc": "/media/cybernexus-gaming-1789040390.png",
+    "screenshots": [
+      "/assets/projects-screenshots/cybernexus-gaming/1.png"
+    ],
+    "skills": [
+      "html"
+    ],
     "highlights": [
       {
-        "heading": "Key Highlights",
         "points": [
           "Developed using HTML.",
           "Open-source repository hosted on GitHub.",
           "Checkout the repository to see implementation details."
-        ]
+        ],
+        "heading": "Key Highlights"
       }
     ],
+    "order": 12,
+    "createdAt": "2026-07-06T10:21:52.716614+00:00"
+  },
+  {
+    "id": "ai-code-editor",
+    "title": "AI Code Editor — VS Code Extension",
+    "category": "Developer Tools",
+    "description": "Intelligent code generation, real-time refactoring, and AI pair-programming extension built for Visual Studio Code.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20AI%20Code%20Editor",
+    "github": "https://github.com/virajverse",
+    "imageSrc": "/media/ai-code-editor-1789040395.png",
+    "screenshots": [
+      "/assets/projects-screenshots/ai-code-editor/1.png"
+    ],
     "skills": [
-      "html"
-    ]
+      "ts",
+      "openai",
+      "node"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Planner → breaks problem into steps",
+          "Coder → writes context-aware code",
+          "Debugger → detects and fixes issues automatically"
+        ],
+        "heading": "Multi-Agent Architecture"
+      }
+    ],
+    "order": 13,
+    "createdAt": "2026-07-06T10:21:50.543414+00:00"
+  },
+  {
+    "id": "goal-tracker-ai",
+    "title": "Goal Tracker AI",
+    "category": "AI Engineering",
+    "description": "Intelligent AI goal coaching and milestone tracking web application powered by LLM habit reinforcement models.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Goal%20Tracker%20AI",
+    "github": "https://github.com/virajverse/Goal-Tracker-AI",
+    "imageSrc": "/media/goal-tracker-ai-1789040398.png",
+    "screenshots": [
+      "/assets/projects-screenshots/goal-tracker-ai/1.png"
+    ],
+    "skills": [
+      "ts"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Developed using TypeScript.",
+          "Open-source repository hosted on GitHub.",
+          "Checkout the repository to see implementation details."
+        ],
+        "heading": "Key Highlights"
+      }
+    ],
+    "order": 14,
+    "createdAt": "2026-07-06T10:21:52.303329+00:00"
+  },
+  {
+    "id": "watch-together-movies-series",
+    "title": "Watch Together Movies & Series",
+    "category": "Web Development",
+    "description": "Synchronized low-latency video streaming and virtual watch-party platform with real-time room chat and media player controls.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Watch%20Together",
+    "github": "https://github.com/virajverse/Watch-Together-Movies-Series",
+    "imageSrc": "/media/watch-together-movies-series-1789040399.png",
+    "screenshots": [
+      "/assets/projects-screenshots/watch-together-movies-series/1.png"
+    ],
+    "skills": [
+      "ts"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Developed using TypeScript.",
+          "Open-source repository hosted on GitHub.",
+          "Checkout the repository to see implementation details."
+        ],
+        "heading": "Key Highlights"
+      }
+    ],
+    "order": 15,
+    "createdAt": "2026-07-06T10:21:51.38745+00:00"
+  },
+  {
+    "id": "daily-work-dashboard",
+    "title": "Daily Work DashBoard",
+    "category": "Productivity App",
+    "description": "Full-stack enterprise productivity and daily work dashboard with task tracking, push notifications, and team velocity metrics.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Daily%20Work%20Dashboard",
+    "github": "https://github.com/virajverse/Daily-Work-DashBoard",
+    "imageSrc": "/media/daily-work-dashboard-1789040396.png",
+    "screenshots": [
+      "/assets/projects-screenshots/daily-work-dashboard/1.png"
+    ],
+    "skills": [
+      "ts"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Developed using TypeScript.",
+          "Open-source repository hosted on GitHub.",
+          "Checkout the repository to see implementation details."
+        ],
+        "heading": "Key Highlights"
+      }
+    ],
+    "order": 16,
+    "createdAt": "2026-07-06T10:21:51.993965+00:00"
+  },
+  {
+    "id": "dailytoutineapp",
+    "title": "DailyRoutine App",
+    "category": "Web Development",
+    "description": "Biological clock synchronization and circadian rhythm daily routine AI assistant for high-performance scheduling.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20DailyRoutine%20App",
+    "github": "https://github.com/virajverse/dailytoutineapp",
+    "imageSrc": "/media/dailytoutineapp-1789040397.png",
+    "screenshots": [
+      "/assets/projects-screenshots/dailytoutineapp/1.png"
+    ],
+    "skills": [
+      "ts"
+    ],
+    "highlights": [
+      {
+        "points": [
+          "Developed using TypeScript.",
+          "Open-source repository hosted on GitHub.",
+          "Checkout the repository to see implementation details."
+        ],
+        "heading": "Key Highlights"
+      }
+    ],
+    "order": 17,
+    "createdAt": "2026-07-06T10:21:51.59417+00:00"
   },
   {
     "id": "lumina-restaurant-site",
-    "category": "Web Development",
     "title": "Lumina Restaurant Site",
-    "imageSrc": "/assets/projects-screenshots/lumina-restaurant-site/1.png",
-    "live": "https://github.com/virajverse/lumina-restaurant-site",
+    "category": "Web Development",
+    "description": "Interactive luxury culinary showcase featuring GSAP micro-interactions, reservation booking, and 3D digital menu presentation.",
+    "live": "mailto:virajsrivastav016@gmail.com?subject=Inquiry:%20Lumina%20Restaurant",
     "github": "https://github.com/virajverse/lumina-restaurant-site",
-    "description": "A project built around HTML. Explore the repository for more details.",
+    "imageSrc": "/media/lumina-restaurant-site-1789040400.png",
+    "screenshots": [
+      "/assets/projects-screenshots/lumina-restaurant-site/1.png"
+    ],
+    "skills": [
+      "html"
+    ],
     "highlights": [
       {
-        "heading": "Key Highlights",
         "points": [
           "Developed using HTML.",
           "Open-source repository hosted on GitHub.",
           "Checkout the repository to see implementation details."
-        ]
+        ],
+        "heading": "Key Highlights"
       }
     ],
-    "skills": [
-      "html"
-    ]
+    "order": 18,
+    "createdAt": "2026-07-06T10:21:52.92543+00:00"
   }
 ]
